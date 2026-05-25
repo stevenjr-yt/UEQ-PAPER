@@ -1,5 +1,27 @@
-\chapter{Methodology}
-\section{Lipsum Sec}
-\lipsum[1]
-\subsection{Lipsum Sub Sec}
-\lipsum[1-10]
+\chapter{Metode Penelitian}\label{cha:method}
+
+\section{Populasi}
+Populasi sasaran dalam penelitian ini adalah mahasiswa aktif IIB Darmajaya yang pernah atau rutin menggunakan layanan perpustakaan digital (\gls{digilib}) IIB Darmajaya. Jumlah pastinya tidak dapat diketahui secara pasti, sehingga populasi ditetapkan berdasarkan kriteria pengguna aktif platform tersebut. Pengguna yang dijadikan subjek penelitian merupakan mahasiswa yang telah menggunakan \gls{digilib} IIB Darmajaya untuk berbagai keperluan akademik, seperti pencarian jurnal, buku referensi, maupun skripsi, dengan durasi penggunaan yang bervariasi. Pengguna tersebut terdiri dari mahasiswa yang rutin mengakses layanan untuk tugas perkuliahan sehari-hari maupun yang menggunakan secara insidentil saat penyusunan tugas akhir. Objek dalam penelitian ini adalah platform \gls{digilib} IIB Darmajaya, khususnya pada aspek \gls{ui}/\gls{ux}, dengan tujuan untuk mengevaluasi pengalaman pengguna serta mengidentifikasi area antarmuka yang perlu dioptimalkan.
+
+\section{Sampel}
+Sampel dalam penelitian ini berjumlah 40 responden yang dipilih menggunakan teknik \textit{purposive sampling}, yaitu metode penentuan sampel berdasarkan kriteria tertentu yang sesuai dengan kebutuhan studi (dalam hal ini mahasiswa IIB Darmajaya yang memiliki pengalaman mengakses \gls{digilib}). Pemilihan teknik ini bertujuan untuk memastikan bahwa responden memiliki pengalaman relevan terhadap objek yang dikaji. Penetapan jumlah responden mengacu pada pedoman \gls{ueq}, di mana rentang 20 hingga 30 responden dianggap memadai untuk memperoleh data yang stabil \cite{schrepp2014applying}. Jumlah ditetapkan sebanyak 40 responden guna meminimalkan potensi bias dan meningkatkan akurasi hasil analisis. Dari jumlah tersebut, sebanyak 5 responden dipilih untuk diwawancarai lebih lanjut guna memperoleh data kualitatif yang lebih mendalam terkait keluhan dan pengalaman penggunaan platform.
+
+\section{Teknik Model Analisis}
+Penelitian ini menggunakan metode campuran (\textit{mixed method}) dengan dominasi pendekatan kuantitatif sebesar 70\% dan kualitatif sebesar 30\%. Teknik analisis data dilakukan secara bertahap mulai dari pengumpulan data, pembuatan solusi desain, hingga evaluasi akhir menggunakan metode \gls{ueq} dan pendekatan Lean UX. Analisis kuantitatif dilakukan menggunakan kuesioner \gls{ueq} yang dianalisis melalui perangkat \textit{UEQ Analysis Tool} berbasis Microsoft Excel untuk mengukur enam skala pengalaman pengguna. Analisis kualitatif melengkapi proses ini melalui observasi, wawancara, dan \textit{usability testing}. Teknik analisis data dalam penelitian ini melibatkan beberapa tahapan utama sebagai berikut:
+
+\begin{enumerate}
+    \item \textbf{Pengumpulan Data Awal:}
+    Menggunakan studi literatur, observasi langsung pada antarmuka pengguna \gls{digilib} IIB Darmajaya, survei \textit{online} (penyebaran kuesioner \gls{ueq} kepada 40 responden mahasiswa), dan wawancara mendalam terhadap 5 responden yang dipilih menggunakan \textit{convenience sampling}.
+    
+    \item \textbf{Analisis Awal:}
+    Data kuantitatif dari kuesioner \gls{ueq} dianalisis secara deskriptif menggunakan \textit{Data Analysis Tool}, lalu dibandingkan dengan \textit{benchmark} \gls{ueq} untuk mengidentifikasi aspek \gls{ui}/\gls{ux} dari \gls{digilib} yang bernilai rendah dan perlu ditingkatkan.
+    
+    \item \textbf{Perancangan Solusi:}
+    Berdasarkan temuan data dan keluhan pengguna, peneliti menyusun dugaan masalah (\textit{declare assumption}) dan membuat perancangan ulang antarmuka dalam bentuk \textit{Minimum Viable Product} (MVP) menggunakan perangkat lunak Figma, mulai dari \textit{wireframe} hingga \textit{high-fidelity prototype}.
+    
+    \item \textbf{Eksperimen dan Validasi:}
+    Prototipe desain antarmuka \gls{digilib} yang baru diuji melalui \textit{usability testing} (misalnya menggunakan platform Maze atau pengujian prototipe langsung) serta diukur kembali menggunakan kuesioner \gls{ueq} untuk melihat perbedaan skor pengalaman pengguna sebelum dan sesudah perbaikan desain.
+    
+    \item \textbf{Evaluasi Akhir:}
+    Hasil \gls{ueq} akhir pada prototipe desain dibandingkan dengan hasil awal (sistem \gls{digilib} saat ini) untuk menilai tingkat keberhasilan rancangan dalam meningkatkan kenyamanan dan pengalaman pengguna aplikasi \gls{digilib} IIB Darmajaya.
+\end{enumerate}
